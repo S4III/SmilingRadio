@@ -1,0 +1,13 @@
+{
+  "name": "pomoradio",
+  "version": "1.0.0",
+  "contributors":[
+    {"name": "Elias Ouissi","email": "wonkuaaa@gmail.com", "url": "https://github.com/S4III"},
+    {"name": "Thibault Feat","email": "thibault@feat-tech.fr", "url": "https://github.com/GitFeat"}
+  ],
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "@repo/backend",
+  "dependencies": {
+    "@repo/shared-types" : "workspace:*",
+    "@repo/database": "workspace:*"
+  }
+}
