@@ -19,9 +19,10 @@
 		"apps/*"
 	],
 	"scripts": {
-		"dev": "bun --filter \"*\" dev",
-		"build": "bun --filter \"*\" build",
-		"lint": "bun --filter \"*\" lint",
+		"dev": "bun run --filter \"*\" dev",
+		"build": "bun run --filter \"*\" build",
+		"lint": "bun run --filter \"*\" lint",
+		"format": "bunx --bun @biomejs/biome format --write",
 		"clean": "rm -rf node_modules apps/*/node_modules packages/*/node_modules"
 	},
 	"module": "index.ts",
