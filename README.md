@@ -5,6 +5,7 @@ This project use:
 - [Biome](https://biomejs.dev/guides/getting-started/) `Linter and Formater`
 - [Typescript](https://www.typescriptlang.org/docs/)
 - [Express](https://expressjs.com/en/starter/installing.html) 
+- [Bruno](https://open-vsx.org/vscode/item?itemName=bruno-api-client.bruno) `VsCode extension for testing the endpoints` 
 
 ## MonoRepo Architecture
 ```text
@@ -17,7 +18,7 @@ This project use:
 └───packages
     ├───database         ===> (@repo/database) Prisma
     │   └───src
-    └───shared-types     ===> (@repo/shared-types) Typescript interfaces shared beetween front and back
+    └───shared-types     ===> (@repo/shared-types) Typescript interfaces shared 
         └───src
 ```
 > `/src` folders should contains all source code that needs compilation in apps/packages !  
