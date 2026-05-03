@@ -1,5 +1,5 @@
 {
-  "name": "@repo/shared-types",
-  "private": true,
-  "type": "module"
+	"name": "@repo/shared-types",
+	"private": true,
+	"type": "module"
 }

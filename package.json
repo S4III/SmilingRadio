@@ -1,35 +1,36 @@
 {
-  "name": "smiling-radio",
-  "version": "1.0.0",
-  "contributors": [
-    {
-    "name": "Elias Ouissi",
-    "email": "wonkuaaa@gmail.com",
-    "url": "https://github.com/S4III"
-  },
-  {
-  "name": "Thibault Feat",
-  "email": "thibault@feat-tech.fr",
-  "url": "https://github.com/GitFeat"
-}
-],
-"private": true,
-"workspaces": [
-  "packages/*",
-  "apps/*"
-],
-"scripts": {
-  "dev": "bun --filter \"*\" dev",
-  "build": "bun --filter \"*\" build",
-  "lint": "bun --filter \"*\" lint",
-  "clean": "rm -rf node_modules apps/*/node_modules packages/*/node_modules"
-},
-"module": "index.ts",
-"type": "module",
-"devDependencies": {
-  "@types/bun": "latest"
-},
-"peerDependencies": {
-  "typescript": "^5"
-}
+	"name": "smiling-radio",
+	"version": "1.0.0",
+	"contributors": [
+		{
+			"name": "Elias Ouissi",
+			"email": "wonkuaaa@gmail.com",
+			"url": "https://github.com/S4III"
+		},
+		{
+			"name": "Thibault Feat",
+			"email": "thibault@feat-tech.fr",
+			"url": "https://github.com/GitFeat"
+		}
+	],
+	"private": true,
+	"workspaces": [
+		"packages/*",
+		"apps/*"
+	],
+	"scripts": {
+		"dev": "bun --filter \"*\" dev",
+		"build": "bun --filter \"*\" build",
+		"lint": "bun --filter \"*\" lint",
+		"clean": "rm -rf node_modules apps/*/node_modules packages/*/node_modules"
+	},
+	"module": "index.ts",
+	"type": "module",
+	"devDependencies": {
+		"@biomejs/biome": "2.4.14",
+		"@types/bun": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^5"
+	}
 }

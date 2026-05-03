@@ -1,8 +1,8 @@
 {
-  "name": "@repo/backend",
-  "private": true,
-  "dependencies": {
-    "@repo/shared-types" : "workspace:*",
-    "@repo/database": "workspace:*"
-  }
+	"name": "@repo/backend",
+	"private": true,
+	"dependencies": {
+		"@repo/shared-types": "workspace:*",
+		"@repo/database": "workspace:*"
+	}
 }
