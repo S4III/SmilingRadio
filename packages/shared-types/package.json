@@ -1,4 +1,5 @@
 {
   "name": "@repo/shared-types",
-  "private": true
+  "private": true,
+  "type": "module"
 }
